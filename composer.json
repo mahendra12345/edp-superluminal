@@ -1,0 +1,29 @@
+{
+    "name": "evandotpro/edp-superluminal",
+    "description": "Class Cache ZF2 Module to reduce stat calls and generally autoloading overhead",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "keywords": [
+        "zendframework",
+        "performance"
+    ],
+    "homepage": "https://github.com/EvanDotPro/EdpSuperluminal",
+    "authors": [
+        {
+            "name": "Evan Coury",
+            "email": "me@evancoury.com",
+            "homepage": "http://blog.evan.pro/"
+        }
+    ],
+    "require": {
+        "laminas/laminas-modulemanager": "^2.15",
+        "laminas/laminas-code": "^4.13",
+        "laminas/laminas-eventmanager": "^3.4",
+        "laminas/laminas-dependency-plugin": "^2.1"
+    },
+    "autoload": {
+        "classmap": [
+            "Module.php"
+        ]
+    }
+}
